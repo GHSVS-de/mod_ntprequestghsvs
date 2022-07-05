@@ -6,7 +6,7 @@ Background:
 - A composer package (example https://github.com/krzysztofmazur/ntp-client) is needed but it doesn't match the PHP requiremnets to load it via Composer.
   - The packge requires `PHP 7.0|7.1` but I have `PHP8` running => Composer blocks.
 - How to include a local fork of it in this repo here and load my adapted local fork via Composer instead?
-- See changed [`_composer/packages/krzysztofmazur/ntp-client/composer.json`](https://github.com/GHSVS-de/mod_ntprequestghsvs/blob/main/_composer/packages/krzysztofmazur/ntp-client/composer.json)
+- See changed `_composer/packages/krzysztofmazur/ntp-client/composer.json`
 
 ```json
 {
