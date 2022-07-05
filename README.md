@@ -10,24 +10,24 @@ Background:
 
 ```json
 {
-	"name": "krzysztofmazur/ntp-client",
-	"description": "NTP client (cloned by ghsvs.de). Original packege does not support PHP > 7.1",
-	"type": "library",
-	"homepage": "https://github.com/krzysztofmazur",
-	"license": "MIT",
-	"authors": [
-		{"name": "Krzysztof Mazur", "email": "krz@ychu.pl"}
-	],
-	"require": {
-			"php": ">=7.4"
-	},
-	"autoload": {
-		"psr-4": {
-			"KrzysztofMazur\\NTPClient\\": "src/"
-		}
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": false
+"name": "krzysztofmazur/ntp-client",
+"description": "NTP client (cloned by ghsvs.de). Original packege does not support PHP > 7.1",
+"type": "library",
+"homepage": "https://github.com/krzysztofmazur",
+"license": "MIT",
+"authors": [
+	{"name": "Krzysztof Mazur", "email": "krz@ychu.pl"}
+],
+"require": {
+	"php": ">=7.4"
+},
+"autoload": {
+	"psr-4": {
+	"KrzysztofMazur\\NTPClient\\": "src/"
+}
+},
+"minimum-stability": "dev",
+"prefer-stable": false
 }
 
 ```
