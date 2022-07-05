@@ -1,0 +1,41 @@
+{
+    "packages": [
+        {
+            "name": "krzysztofmazur/ntp-client",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./packages/krzysztofmazur/ntp-client",
+                "reference": "c49304788fdd10b73b70f432b3e9fa45910c4a46"
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "KrzysztofMazur\\NTPClient\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Krzysztof Mazur",
+                    "email": "krz@ychu.pl"
+                }
+            ],
+            "description": "NTP client (cloned by ghsvs.de). Original packege does not support PHP > 7.1",
+            "homepage": "https://github.com/krzysztofmazur",
+            "transport-options": {
+                "symlink": false,
+                "relative": true
+            },
+            "install-path": "../krzysztofmazur/ntp-client"
+        }
+    ],
+    "dev": true
+}

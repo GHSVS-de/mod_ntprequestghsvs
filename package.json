@@ -1,0 +1,77 @@
+{
+	"name": "mod_ntprequestghsvs",
+	"nameReal": "mod_ntprequestghsvs",
+	"filename": "mod_ntprequestghsvs",
+	"version": "2022.07.05",
+	"versionCompare": "2022.07.05",
+	"update": {
+		"type": "module",
+		"folder": "",
+		"client": "administrator",
+		"tag": "stable",
+		"targetplatform": [
+			"4.*"
+		],
+		"namespace": "Joomla\\Module\\NtpRequestGhsvs",
+		"xmlserverComment": "Der Grundpfad zu update.xml etc. Falls abweichend vom Default in replaceXml.",
+		"xmlserver": ""
+	},
+	"releaseTxt": {
+		"title": "Joomla administrator module mod_ntprequestghsvs",
+		"requires": [],
+		"uses": [
+			"https://github.com/krzysztofmazur/ntp-client (cloned and edited by ghsvs.de)"
+		]
+	},
+	"changelog": {
+		"projecturl": "https://github.com/GHSVS-de/mod_ntprequestghsvs",
+		"infosDE": "",
+		"infosEN": "https://github.com/GHSVS-de/mod_ntprequestghsvs#readme",
+		"docsDE": "",
+		"docsEN": "",
+		"lastTests": [
+			"PHP 8.0",
+			"Joomla 4.1"
+		]
+	},
+	"minimumPhp": "7.4.2",
+	"maximumPhp": "8.99999.99999",
+	"minimumJoomla": "4.1.0",
+	"maximumJoomla": "4.9999.9999",
+	"allowDowngrades": "1",
+	"creationDate": "2022-07-05",
+	"licenseLong": "GNU General Public License version 3 or later; see LICENSE.txt.",
+	"copyright": "(C) 2022, G@HService Berlin Neukölln, Volkmar Volli Schlothauer (ghsvs.de)",
+	"author": {
+		"name": "G@HService Berlin Neukölln, Volkmar Volli Schlothauer",
+		"url": "https://ghsvs.de"
+	},
+	"contributors": [
+		{
+			"name": "G@HService Berlin Neukölln, Volkmar Volli Schlothauer",
+			"url": "https://ghsvs.de"
+		}
+	],
+	"bugs": "https://github.com/GHSVS-de/mod_ntprequestghsvs/issues",
+	"homepage": "https://github.com/GHSVS-de/mod_ntprequestghsvs#readme",
+	"keywords": [
+		"joomla",
+		"administrator module",
+		"ntp request"
+	],
+	"private": false,
+	"description": "Joomla administrator module. Displays results of an NTP request (time server). Not more.",
+	"license": "GPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GHSVS-de/mod_ntprequestghsvs.git"
+	},
+	"scripts": {
+		"build": "node build.js",
+    "updateCheck": "npm outdated",
+    "update": "npm update --save-dev"
+	},
+	"dependencies": {},
+	"devDependencies": {},
+	"browserslist": []
+}
