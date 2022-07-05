@@ -35,19 +35,19 @@ Background:
 
 ```json
 {
-	"repositories": [
-    {
-			"type": "path",
-			"url": "./packages/krzysztofmazur/ntp-client",
-			"options": {
-				"symlink": false
-			}
-    }
-	],
+"repositories": [
+{
+"type": "path",
+"url": "./packages/krzysztofmazur/ntp-client",
+"options": {
+"symlink": false
+}
+}
+],
 
-	"require": {
-    "krzysztofmazur/ntp-client": "@dev"
-	}
+"require": {
+"krzysztofmazur/ntp-client": "@dev"
+}
 }
 
 ```
